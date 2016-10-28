@@ -27,6 +27,7 @@ def example_data():
     db.session.add_all([f, dl])
     db.session.commit()
 
+
 if __name__ == '__main__':
     from server import app
 
